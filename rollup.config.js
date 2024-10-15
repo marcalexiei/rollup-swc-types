@@ -1,6 +1,6 @@
 import { defineConfig } from "rollup";
 import { swc } from "rollup-plugin-swc3";
-import UnpluginIsolatedDecl from "unplugin-isolated-decl/rolldown";
+import UnpluginIsolatedDecl from "unplugin-isolated-decl/rollup";
 import typescript from "@rollup/plugin-typescript";
 
 export default defineConfig([
